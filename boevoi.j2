@@ -1,0 +1,13 @@
+client
+dev tap
+persist-tun
+proto tcp
+remote openvpn.uniteller.ru 1730
+nobind
+tls-client
+comp-lzo
+verb 4
+ca /etc/openvpn/boevoi/{{ ca }}
+cert /etc/openvpn/boevoi/{{ cert }}
+key /etc/openvpn/boevoi/{{ key }}
+ns-cert-type server

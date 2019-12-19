@@ -1,0 +1,26 @@
+dev tap
+client
+nobind
+remote vpnmgr.uniteller.ru
+proto udp
+port 1730
+comp-lzo
+tls-client
+persist-key
+persist-tun
+
+ca /etc/openvpn/ctrl/{{ ca }}
+
+
+cert /etc/openvpn/ctrl/{{ cert }}
+key /etc/openvpn/ctrl/{{ key }}
+
+
+ns-cert-type server
+
+verb 4
+#link-mtu 1400
+mssfix 0
+fragment 0
+
+keepalive 10 120
