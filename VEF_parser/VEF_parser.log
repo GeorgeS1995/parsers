@@ -1,0 +1,6 @@
+main.py[LINE:155]# INFO     [2019-09-16 23:12:28,194]  Starting parser
+main.py[LINE:87]# INFO     [2019-09-16 23:12:33,435]  Подключение к БД установленно
+main.py[LINE:28]# INFO     [2019-09-16 23:12:34,744]  start parse link: http://forumvostok.ru/programme/
+main.py[LINE:108]# WARNING  [2019-09-16 23:12:38,926]  Данные уже есть в БД
+main.py[LINE:45]# INFO     [2019-09-16 23:12:38,936]  start parse block id: 21354
+main.py[LINE:52]# WARNING  [2019-09-16 23:12:38,952]  тэг "Тип" не найден для блока
